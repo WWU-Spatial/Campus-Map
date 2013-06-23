@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+/*  This file contains the custom styles for your site. Please use            */
+/*   carefully to apply department specific changes.                          */
+/*   Thank you!   ATUS 9/30/2011                                              */
+/* Brand Colors
+Dk blue: 		#003f87
+Light blue: 	#0083d6
+red:  			#cc2d30
+yellow-orange:	#ffc61e
+lime green:		#bad80a
+*/
+.tagline{
+	display:none; /*if you do wish the tagline "Active Minds" to display on the blue bar, comment this out*/
+	}
+h2 {
+	border-color:#cc2d30; /*choose border colors from brand colors, above*/
+	}

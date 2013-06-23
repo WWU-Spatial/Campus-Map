@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Campus Buildings: FullContent</title>
+<!-- TemplateEndEditable -->
+<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="/map/bldgs/resources/rsv/layout.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="http://www.wwu.edu/wwucommon/template/wwustyles.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/map/bldgs/resources/rsv/menu-style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/map/bldgs/resources/custom.css" media="screen" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/navSliding.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.corner.js"></script>
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="wrap">
+  <!-- University header -->
+  <!--#include virtual="/map/bldgs/resources/rsv/wwuheader.html"--> 
+  <div id="content-wrap">
+    <!--#include virtual="/map/bldgs/includes/header.html"-->        
+    <div id="content">
+      <!-- CONTENT GOES HERE --><!-- TemplateBeginEditable name="Content" -->
+      <h1>My H1 here</h1>
+      <p>Your content here. </p>
+      <!-- TemplateEndEditable --></div><!--content  -->
+  </div><!--content-wrap  -->
+  <div class="end"></div>
+  <!-- Unit Footer -->
+  <!--#include virtual="/map/bldgs/includes/footer.html"--> 
+  <!-- University footer  -->
+  <!--#include virtual="/map/bldgs/resources/rsv/wwufooter.html"--> 
+  <!-- University Copyright and Page Updated sections -->
+  <div id="page-date">
+    Page Updated
+    <!--#config timefmt="%m.%d.%Y"-->
+    <!--#echo var="LAST_MODIFIED"-->
+  </div>
+  <div id="copyright">
+     Copyright © 
+     <!--#config timefmt="%Y"-->
+     <!--#echo var="DATE_LOCAL"-->
+     Western Washington University  
+  </div><!-- copyright -->
+</div><!--wrap  --><!--Google Analytics or other scripts can be placed here -->
+
+<!-- This script rounds the corners of anything with class = "rounded", such as the department footer -->
+
+<script type="text/javascript">
+$(document).ready( function(){
+  $('.rounded').corner();
+});</script>
+<!-- TemplateBeginEditable name="Scripts" -->
+<!-- Put Scripts and Google Analytics Codes here -->
+<!-- TemplateEndEditable -->
+</body>
+</html>

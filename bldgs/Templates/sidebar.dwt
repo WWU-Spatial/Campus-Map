@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Campus Buildings: Sidebar</title>
+<!-- TemplateEndEditable -->
+<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="/map/bldgs/resources/rsv/layout.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="http://www.wwu.edu/wwucommon/template/wwustyles.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/map/bldgs/resources/rsv/menu-style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/map/bldgs/resources/custom.css" media="screen" />
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/navSliding.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.corner.js"></script>
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="wrap">
+  <!-- University header -->
+  <!--#include virtual="/map/bldgs/resources/rsv/wwuheader.html"--> 
+  <div id="content-wrap">
+    <!--#include virtual="/map/bldgs/includes/header.html"-->        
+    <div id="nav">
+	  <!--#include virtual="/map/bldgs/includes/search.html"-->
+      <!-- Navigation section: modify site menu in includes/nav.html -->
+      <!--#include virtual="/map/bldgs/includes/nav.html"-->
+    </div>
+    <div id="content">
+      <!-- CONTENT GOES HERE -->
+      <div id="main"><!-- TemplateBeginEditable name="Main Content" -->
+        <h1>Main H1 here</h1>
+        <p>your content here <a href="#">a link</a></p>
+        <h2>h2 here</h2>
+        <h3>Main H3 here</h3>
+        <h4>Main H4 here</h4>
+      <!-- TemplateEndEditable --></div>
+      <!--main  -->
+      <div id="side"><!-- TemplateBeginEditable name="Side Content" -->
+        <h3>h3 header</h3>
+        <p>Side content here</p>
+      <!-- TemplateEndEditable --></div>
+      <!--side  -->
+    </div><!--content  -->
+  </div><!--content-wrap  -->
+  <div class="end"></div>
+  <!-- Unit Footer -->
+  <!--#include virtual="/map/bldgs/includes/footer.html"-->
+  <!-- University footer  -->
+  <!--#include virtual="/map/bldgs/resources/rsv/wwufooter.html"--> 
+  <!-- University Copyright and Page Updated sections -->
+  <div id="page-date">
+    Page Updated
+    <!--#config timefmt="%m.%d.%Y"-->
+    <!--#echo var="LAST_MODIFIED"-->
+  </div>
+  <div id="copyright">
+     Copyright © 
+     <!--#config timefmt="%Y"-->
+     <!--#echo var="DATE_LOCAL"-->
+     Western Washington University  
+  </div><!-- copyright -->
+</div><!--wrap  --><!--Google Analytics or other scripts can be placed here -->
+
+<!-- This script rounds the corners of anything with class = "rounded", such as the department footer -->
+<script type="text/javascript">
+$(document).ready( function(){
+  $('.rounded').corner();
+});</script>
+<!-- TemplateBeginEditable name="Scripts" -->
+<!-- Put Scripts and Google Analytics Codes here -->
+<!-- TemplateEndEditable --> 
+</body>
+</html>

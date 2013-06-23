@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/full-content.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Campus Buildings</title>
+<!-- InstanceEndEditable -->
+<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="/map/bldgs/resources/rsv/layout.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="http://www.wwu.edu/wwucommon/template/wwustyles.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/map/bldgs/resources/rsv/menu-style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/map/bldgs/resources/custom.css" media="screen" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/navSliding.js"></script>
+<script type="text/javascript" src="http://www.wwu.edu/wwucommon/template/jquery.corner.js"></script>
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="wrap">
+  <!-- University header -->
+  <!--#include virtual="/map/bldgs/resources/rsv/wwuheader.html"--> 
+  <div id="content-wrap">
+    <!--#include virtual="/map/bldgs/includes/header.html"-->        
+    <div id="content">
+      <!-- CONTENT GOES HERE --><!-- InstanceBeginEditable name="Content" -->
+      <h1>Campus Buildings      </h1>
+      <p><a href="../">Interactive Campus Map</a> <br>
+      (See <a href="../?features=accessibility">Accessibility Map</a>; See <a href="../?features=parking">Parking Map</a>; See current <a href="../?features=construction">Construction Projects Map</a>)</p>
+<p>&nbsp;</p>
+      <table cellspacing="0" cellpadding="0">
+        <col width="222">
+        <col width="38">
+        <col width="171">
+        <col width="63">
+        <col width="558">
+        <tr>
+          <td width="299"><div align="center"><strong>Name</strong></div></td>
+          <td width="40"><font size="1">(<a href="index_abb_sort.shtml">SORT</a>)</font></td>
+          <td width="225"><div align="center"><strong> Type</strong></div></td>
+          <td width="369"><div align="center"><strong>Map Link</strong></div></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/cs.shtml"><strong>Visitor's Center (Parking)</strong></a></font></td>
+          <td>CS</td>
+          <td>Campus Services</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=CS">http://www.wwu.edu/map/<strong>?building=CS</strong></a></font></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/ai.shtml">Academic Instructional Center</a></td>
+          <td>AI</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=AI">http://www.wwu.edu/map/<strong>?building=AI</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/aw.shtml">Academic Instructional West</a></td>
+          <td>AW</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=AW">http://www.wwu.edu/map/<strong>?building=AW</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/ac.shtml">Administrative Services Center</a></td>
+          <td>AC</td>
+          <td>Administration</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=AC">http://www.wwu.edu/map/<strong>?building=AC</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/al.shtml">Alumni House</a></td>
+          <td>AL</td>
+          <td>Administration</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=AL">http://www.wwu.edu/map/<strong>?building=AL</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/ab.shtml">Archives Building</a></td>
+          <td>AB</td>
+          <td>State Archives</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=AB">http://www.wwu.edu/map/<strong>?building=AB</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/ar.shtml">Armory</a></td>
+          <td>AR</td>
+          <td>Miscellaneous</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=AR">http://www.wwu.edu/map/<strong>?building=AR</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/ah.shtml">Arntzen Hall</a></td>
+          <td>AH</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=AH">http://www.wwu.edu/map/<strong>?building=AH</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/aa.shtml">Art Annex</a></td>
+          <td>AA</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=AA">http://www.wwu.edu/map/<strong>?building=AA</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/bi.shtml">Biology</a></td>
+          <td>BI</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=BI">http://www.wwu.edu/map/<strong>?building=BI</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/bw.shtml">Birnam Wood</a></td>
+          <td>&nbsp;</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=BW">http://www.wwu.edu/map/<strong>?building=BW</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/bc.shtml">Birnam Wood Community</a></td>
+          <td>BC</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=BC">http://www.wwu.edu/map/<strong>?building=BC</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/bl.shtml">Birnam Wood Laundry</a></td>
+          <td>BL</td>
+          <td>Miscellaneous</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=BL">http://www.wwu.edu/map/<strong>?building=BL</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/bh.shtml">Bond Hall</a></td>
+          <td>BH</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=BH">http://www.wwu.edu/map/<strong>?building=BH</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/bk.shtml">Bookstore</a></td>
+          <td>BK</td>
+          <td>Campus Services</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=BK">http://www.wwu.edu/map/<strong>?building=BK</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/bt.shtml">Buchanan Towers</a></td>
+          <td>BT</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=BT">http://www.wwu.edu/map/<strong>?building=BT</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/cs.shtml">Campus Services (Parking)</a></td>
+          <td>CS</td>
+          <td>Campus Services</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=CS">http://www.wwu.edu/map/<strong>?building=CS</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/ca.shtml">Canada House</a></td>
+          <td>CA</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=CA">http://www.wwu.edu/map/<strong>?building=CA</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/cv.shtml">Carver Gymnasium</a></td>
+          <td>CV</td>
+          <td>Academic &amp; Events</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=CV">http://www.wwu.edu/map/<strong>?building=CV</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/cb.shtml">Chemistry Building</a></td>
+          <td>CB</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=CB">http://www.wwu.edu/map/<strong>?building=CB</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/ch.shtml">College Hall</a></td>
+          <td>CH</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=CH">http://www.wwu.edu/map/<strong>?building=CH</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/cm.shtml">Commissary</a></td>
+          <td>CM</td>
+          <td>Campus Services</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=CM">http://www.wwu.edu/map/<strong>?building=CM</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/cf.shtml">Communications Facility</a></td>
+          <td>CF</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=CF">http://www.wwu.edu/map/<strong>?building=CF</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/eh.shtml">Edens Hall</a></td>
+          <td>EH</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=EH">http://www.wwu.edu/map/<strong>?building=EH</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/en.shtml">Edens Hall North</a></td>
+          <td>EN</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=EN">http://www.wwu.edu/map/<strong>?building=EN</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/es.shtml">Environmental Studies</a></td>
+          <td>ES</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=ES">http://www.wwu.edu/map/<strong>?building=ES</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/fs.shtml">Fairhaven Cabin</a></td>
+          <td>FS</td>
+          <td>Miscellaneous</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=FS">http://www.wwu.edu/map/<strong>?building=FS</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/fc.shtml">Fairhaven College</a></td>
+          <td>FC</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=FC">http://www.wwu.edu/map/<strong>?building=FC</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/ft.shtml">Fairhaven Towers</a></td>
+          <td>&nbsp;</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=FT">http://www.wwu.edu/map/<strong>?building=FT</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/fi.shtml">Fine Arts Building</a></td>
+          <td>FI</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=FI">http://www.wwu.edu/map/<strong>?building=FI</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/fr.shtml">Fraser Hall</a></td>
+          <td>FR</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=FR">http://www.wwu.edu/map/<strong>?building=FR</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/hh.shtml">Haggard Hall</a></td>
+          <td>HH</td>
+          <td>Library</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=HH">http://www.wwu.edu/map/<strong>?building=HH</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/hg.shtml">Higginson Hall</a></td>
+          <td>HG</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=HGhttp://www.wwu.edu/map/?building=HG">http://www.wwu.edu/map/<strong>?building=HG</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/hs.shtml">High Street Hall</a></td>
+          <td>HS</td>
+          <td>Campus Services</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=HS">http://www.wwu.edu/map/<strong>?building=HS</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/hi.shtml">Highland Hall</a></td>
+          <td>HI</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=HI">http://www.wwu.edu/map/<strong>?building=HI</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/hu.shtml">Humanities Building</a></td>
+          <td>HU</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=HU">http://www.wwu.edu/map/<strong>?building=HU</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/ma.shtml">Mathes Hall</a></td>
+          <td>MA</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=MA">http://www.wwu.edu/map/<strong>?building=MA</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/mh.shtml">Miller Hall</a></td>
+          <td>MH</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=MH">http://www.wwu.edu/map/<strong>?building=MH</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/na.shtml">Nash Hall</a></td>
+          <td>NA</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=NA">http://www.wwu.edu/map/<strong>?building=NA</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/om.shtml">Old Main</a></td>
+          <td>OM</td>
+          <td>Administration</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=OM">http://www.wwu.edu/map/<strong>?building=OM</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/cs.shtml">Parking Office</a></td>
+          <td>CS</td>
+          <td>Campus Services</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=CS">http://www.wwu.edu/map/<strong>?building=CS</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/ph.shtml">Parks Hall</a></td>
+          <td>PH</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=PH">http://www.wwu.edu/map/<strong>?building=PH</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/pa.shtml">PAC (Performing Arts Center)</a></td>
+          <td>PA</td>
+          <td>Academic &amp; Events</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=PA">http://www.wwu.edu/map/<strong>?building=PA</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/pp.shtml">Physical Plant</a></td>
+          <td>PP</td>
+          <td>Administration</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=PP">http://www.wwu.edu/map/<strong>?building=PP</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/sv.shtml">Recreation Center</a></td>
+          <td>SV</td>
+          <td>Recreation &amp; Events</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=SV">http://www.wwu.edu/map/<strong>?building=SV</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/ra.shtml">Ridgeway Alpha</a></td>
+          <td>RA</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=RA">http://www.wwu.edu/map/<strong>?building=RA</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/rb.shtml">Ridgeway Beta</a></td>
+          <td>RB</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=RB">http://www.wwu.edu/map/<strong>?building=RB</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/rc.shtml">Ridgeway Commons</a></td>
+          <td>RC</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=RC">http://www.wwu.edu/map/<strong>?building=RC</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/rd.shtml">Ridgeway Delta</a></td>
+          <td>RD</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=RD">http://www.wwu.edu/map/<strong>?building=RD</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/rg.shtml">Ridgeway Gamma</a></td>
+          <td>RG</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=RG">http://www.wwu.edu/map/<strong>?building=RG</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/rk.shtml">Ridgeway Kappa</a></td>
+          <td>RK</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=RK">http://www.wwu.edu/map/<strong>?building=RK</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/ro.shtml">Ridgeway Omega</a></td>
+          <td>RO</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=RO">http://www.wwu.edu/map/<strong>?building=RO</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/rs.shtml">Ridgeway Sigma</a></td>
+          <td>RS</td>
+          <td>University Residence</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=RS">http://www.wwu.edu/map/<strong>?building=RS</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/et.shtml">Ross Engineering Technology</a></td>
+          <td>ET</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=ET">http://www.wwu.edu/map/<strong>?building=ET</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/sl.shtml">SMATE (Sci. Math and Tech.    Ed.)</a></td>
+          <td>SL</td>
+          <td>Academic</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=SL">http://www.wwu.edu/map/<strong>?building=SL</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/sp.shtml">Steam Plant</a></td>
+          <td>SP</td>
+          <td>Miscellaneous</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=SP">http://www.wwu.edu/map/<strong>?building=SP</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/vc.shtml">Viking Commons</a></td>
+          <td>VC</td>
+          <td>Campus Services &amp; Events</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=VC">http://www.wwu.edu/map/<strong>?building=VC</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/vu.shtml">Viking Union</a></td>
+          <td>VU</td>
+          <td>Campus Services &amp; Events</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=VU">http://www.wwu.edu/map/<strong>?building=VU</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/cs.shtml"><strong>Visitor's Center (Parking)</strong></a></font></td>
+          <td>CS</td>
+          <td>Campus Services</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=CS">http://www.wwu.edu/map/<strong>?building=CS</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/sv.shtml">Wade King Recreation Center</a></td>
+          <td>SV</td>
+          <td>Recreation &amp; Events</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=SV">http://www.wwu.edu/map/<strong>?building=SV</strong></a></font></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/wl.shtml">Wilson Library</a></td>
+          <td>WL</td>
+          <td>Library</td>
+          <td><font size=2><a href="http://www.wwu.edu/map/?building=WL">http://www.wwu.edu/map/<strong>?building=WL</strong></a></font></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">404 24TH Street (Hacker)</a></td>
+          <td>R03</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">408 20TH Street (Fassler)</a></td>
+          <td>R02</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">800-802 Indian Street (Miller)</a></td>
+          <td>R08</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">804-806 Indian Terrace (Bame)</a></td>
+          <td>R07</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">808 Indian Street (Whitfield)</a></td>
+          <td>R06</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">812 Indian Terrace (Casey B)</a></td>
+          <td>R10</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">818 Indian Terrace (Casey A)</a></td>
+          <td>R09</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">914 24TH Street (Graham)</a></td>
+          <td>R01</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Antenna Building</a></td>
+          <td>AN</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Armory Motor Pool Shed</a></td>
+          <td>AS</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Athletic Storage Facility</a></td>
+          <td></td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Baseball Field Storage</a></td>
+          <td>SB</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Biology Greenhouse</a></td>
+          <td>BG</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Bus Shelter</a></td>
+          <td>BS</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Engineering Storage</a></td>
+          <td>EU</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Equipment Shed</a></td>
+          <td>EQ</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Fairhaven Bridge</a></td>
+          <td>FU</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Fairhaven Playground Building</a></td>
+          <td>FV</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Maintenance Fuel Shed</a></td>
+          <td>MF</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Maintenance Garage</a></td>
+          <td>MG</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Maintenance Warehouse</a></td>
+          <td>MW</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Marshalling Storage</a></td>
+          <td>MS</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Marshalling Yard</a></td>
+          <td>MY</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Recycle Center</a></td>
+          <td>RE</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Service Storage Shed</a></td>
+          <td>SE</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Tennis Equipment Building</a></td>
+          <td>TD</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Track Bunker</a></td>
+          <td>TB</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Track Equipment Building</a></td>
+          <td>TE</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="../bldgs/misc.shtml">Upholstery Shop</a></td>
+          <td>US</td>
+          <td>Miscellaneous</td>
+          <td></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <h2>Related Map Links:</h2>
+      <ul>
+        <li><a href="../">WWU <strong>Interactive Campus Map</strong></a></li>
+        <li>Information <a href="../about/">ABOUT the WWU Campus Map</a> (including Custom Map URL links)</li>
+        <li><a href="http://www.wwu.edu/sites/default/files/campusmap.pdf">WWU <strong><em>Printable</em></strong> Map</a></li>
+        <li><a href="https://www.ps.wwu.edu/parking/map/index.aspx">WWU <em><strong>Printable</strong></em> Parking Map</a></li>
+        <li><a href="http://www.wwu.edu/eoo/map/index.shtml">WWU Campus Accessibility Map</a></li>
+        <li><a href="http://west.wwu.edu/atus/computerlabs/computerlabmap.shtml">ATUS Computer Labs</a></li>
+        <li><a href="http://www.wwu.edu/wwuarchitect/facilitiesdevelopment/constructionmap/index.shtml">Construction Projects</a></li>
+        <li><a href="http://media.campusdish.com/highered/wwu/wwumap.html">Campus Food Locations Map</a></li>
+        <li>WWU Office of Sustainability <a href="http://www.wwu.edu/sustain/resources/green-map/">Green Map</a></li>
+        <li><a href="https://www.ps.wwu.edu/Parking/MAP/Bike_Paths_Map.pdf">Bike Paths</a></li>
+        <li>WWU <a href="http://www.raidsonline.com/?address=%20Western%20Washington%20University,WA">Crime Map</a></li>
+      </ul>
+      <p>&nbsp;</p>
+      <h2>Related Building Information Links:</h2>
+      <ul>
+        <li><a href="http://www.wwu.edu/eoo/accessibility/index.html">Accessibility Information</a></li>
+        <li><a href="http://housing.wwu.edu/facilities/floor-plans/">Residential Hall Floor plans</a></li>
+        <li><a href="http://www.wwu.edu/wwuarchitect/campusfloorplans.shtml">Academic Building Floor plans</a></li>
+        <li><a href="http://www.campusdish.com/en-US/CSW/WesternWashington/ResidentialDining/">University Dining - Residential</a></li>
+        <li><a href="http://www.campusdish.com/en-US/CSW/WesternWashington/RetailDining/">University Dining - Retail</a></li>
+        <li>Environmental Health &amp; Safety <a href="http://www.wwu.edu/ehs/lead_in_drinking_water/resultsbybldg.shtml">Drinking Water Results</a></li>
+        <li>WWU Office of Sustainability <a href="http://www.wwu.edu/sustain/initiatives/buildings/">Green Buildings</a></li>
+      </ul>
+      <p>&nbsp;</p>
+<p>&nbsp;</p>
+      <div align="center"></div>
+<!-- InstanceEndEditable --></div><!--content  -->
+  </div><!--content-wrap  -->
+  <div class="end"></div>
+  <!-- Unit Footer -->
+  <!--#include virtual="/map/bldgs/includes/footer.html"--> 
+  <!-- University footer  -->
+  <!--#include virtual="/map/bldgs/resources/rsv/wwufooter.html"--> 
+  <!-- University Copyright and Page Updated sections -->
+  <div id="page-date">
+    Page Updated
+    <!--#config timefmt="%m.%d.%Y"-->
+    <!--#echo var="LAST_MODIFIED"-->
+  </div>
+  <div id="copyright">
+     Copyright © 
+     <!--#config timefmt="%Y"-->
+     <!--#echo var="DATE_LOCAL"-->
+     Western Washington University  
+  </div><!-- copyright -->
+</div><!--wrap  --><!--Google Analytics or other scripts can be placed here -->
+
+<!-- This script rounds the corners of anything with class = "rounded", such as the department footer -->
+
+<script type="text/javascript">
+$(document).ready( function(){
+  $('.rounded').corner();
+});</script>
+<!-- InstanceBeginEditable name="Scripts" -->
+<!-- Put Scripts and Google Analytics Codes here -->
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>
