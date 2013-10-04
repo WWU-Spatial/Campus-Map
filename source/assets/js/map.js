@@ -1,8 +1,10 @@
-dojo.require("esri.map");
-dojo.require("esri.dijit.Scalebar");
-dojo.require("esri.layers.FeatureLayer");
+
 (function () {
     "use strict";
+    require(["esri/map"]);
+	require(["esri/dijit/Scalebar"]);
+	require(["esri/layers/FeatureLayer"]);
+	
     var map,
     buildings,
     places,
