@@ -12,10 +12,10 @@
   ],
   "format": "png",
   "interactivity": {
-    "layer": "trees",
-    "template_teaser": "{{{Id}}}",
+    "layer": "surfaces",
+    "template_teaser": "{{{road_type}}}",
     "fields": [
-      "road_type"
+      "Id"
     ]
   },
   "minzoom": 15,
