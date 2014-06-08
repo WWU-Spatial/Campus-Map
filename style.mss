@@ -156,7 +156,7 @@ Map {
 #trees {
   [zoom>=17] {
     point-allow-overlap:true;
-  	point-file: url("C:\Temp\Campus\Trees\tree.svg");
+  	point-file: url("icons\tree.svg");
     point-opacity: 1;
   }
     [zoom=17] {
