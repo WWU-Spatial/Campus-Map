@@ -1,0 +1,185 @@
+{
+  "bounds": [
+    -122.4916,
+    48.7238,
+    -122.473,
+    48.7417
+  ],
+  "center": [
+    -122.4845,
+    48.7341,
+    16
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "trees",
+    "template_teaser": "{{{Id}}}",
+    "fields": [
+      "road_type"
+    ]
+  },
+  "minzoom": 15,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.49388893740742,
+        48.72384274515748,
+        -122.47305899843198,
+        48.74322912725602
+      ],
+      "id": "surfaces",
+      "class": "",
+      "Datasource": {
+        "file": "data\\Surfaces\\surfaces.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "surfaces"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.4908475490792,
+        48.72413833869212,
+        -122.4735281606571,
+        48.74140391197256
+      ],
+      "id": "buildings",
+      "class": "",
+      "Datasource": {
+        "file": "data\\Buildings\\buildings.shp",
+        "id": "buildings",
+        "project": "WWU_Campus",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "buildings"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -122.49207044903166,
+        48.72384274515748,
+        -122.47307852960289,
+        48.7426421561741
+      ],
+      "id": "surface-lines",
+      "class": "",
+      "Datasource": {
+        "file": "data\\Surfaces\\line_features.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "surface-lines"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.48902003428493,
+        48.73187075734547,
+        -122.4873743826183,
+        48.73348570370075
+      ],
+      "id": "track-surfaces",
+      "class": "",
+      "Datasource": {
+        "file": "data\\Track\\surfaces.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "track-surfaces"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -122.48902003399482,
+        48.73187219239573,
+        -122.48737638488629,
+        48.733465100466
+      ],
+      "id": "track-lines",
+      "class": "",
+      "Datasource": {
+        "file": "data\\Track\\lines.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "track-lines"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -122.49138648955419,
+        48.72412144663985,
+        -122.47341229785663,
+        48.74069725478204
+      ],
+      "id": "parking-lines",
+      "class": "",
+      "Datasource": {
+        "file": "data\\Parking\\parking_lines.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "parking-lines"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -122.4913683259865,
+        48.72412144663985,
+        -122.47341229785663,
+        48.74069952897892
+      ],
+      "id": "parking-stalls",
+      "class": "",
+      "Datasource": {
+        "file": "data\\Parking\\stall3.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "parking-stalls"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -122.48794954620706,
+        48.72960395896849,
+        -122.4832606005406,
+        48.74008286199906
+      ],
+      "id": "trees",
+      "class": "",
+      "Datasource": {
+        "file": "data\\Trees\\trees.shp",
+        "id": "trees",
+        "project": "WWU_Campus",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "trees"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "WWU Campus",
+  "description": "WWU Campus Map",
+  "attribution": "",
+  "legend": ""
+}
