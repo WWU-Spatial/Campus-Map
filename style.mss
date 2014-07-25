@@ -2,13 +2,13 @@
 *                           VARIABLES
 **********************************************************************/
 
-@buildings: darken(#ED9121, 30%); /*#843F5B; /*#CC4E5C;/*#A8516E; /*#CC5500; /*#A52A2A;  /*#98777B;*/
-@vegetation: desaturate(lighten(#8A9A5B, 10%), 10%); /*Moss Green: #8A9A5B */ /*#D9DEC3;/*rgb(146,163,83);*/
+@buildings: #A9AB88;
+@vegetation: #F3F0CF;
 @recreation: rgb(174,191,103);
-@walkway: desaturate(lighten(#A45A52, 30%), 15%); /*rgb(219,198,173);*/
+@walkway: #B4A096;
 @water: rgb(153,207,227);
 @pavement: rgb(188,189,192);
-@arboretum: rgb(88,115,51);
+@arboretum: #BED2BE;
 
 /*Track and Field*/
 @astroturf: rgb(25,111,12);
